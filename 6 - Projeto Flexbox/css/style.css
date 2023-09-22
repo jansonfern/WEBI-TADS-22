@@ -1,5 +1,28 @@
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   --cor-primaria: #5eb3c3;
   --cor-secundaria: #444644;
   --cor-fundo: #e6e7e8;
+
+  
 }
+.cabecalho{
+  background-color: var(--cor-primaria);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.cabecalho nav{
+  display: flex;
+}
+.cabecalho nav li{
+  color:white ;
+  list-style: none;
+  gap: 20px;
+
+}
+
